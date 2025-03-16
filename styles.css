@@ -1,6 +1,6 @@
 /* Your CSS code here. */
 #flip {
-  width: 100%;  /* Adjust this according to the size you want */
+  width: 100%;  
   transition: opacity 0.5s ease;
 }
 
