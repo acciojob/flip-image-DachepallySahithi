@@ -1,1 +1,9 @@
 /* Your CSS code here. */
+#flip {
+  width: 100%;  /* Adjust this according to the size you want */
+  transition: opacity 0.5s ease;
+}
+
+#flip:hover {
+  content: url('https://live.staticflickr.com/8138/29099429912_0659caf55b_b.jpg');
+}
