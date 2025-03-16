@@ -1,4 +1,3 @@
-// write js code if required
 // Get the image element by its ID
 const image = document.getElementById('flip');
 
@@ -11,10 +10,10 @@ image.src = initialImage;
 
 // Change the image when the user hovers over it
 image.addEventListener('mouseover', () => {
-  image.src = hoverImage;
+  image.src = hoverImage; // Set the image to the hover image
 });
 
 // Change the image back when the user stops hovering
 image.addEventListener('mouseout', () => {
-  image.src = initialImage;
+  image.src = initialImage; // Reset the image to the initial image
 });
